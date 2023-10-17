@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 800px;
+    
+    background-image: linear-gradient(rgba(213, 213, 218, 0.8),rgba(172, 172, 180, 0.8)),url("lawss.jpg");
+    background-position: center;
+    background-size: cover;
+   /* position: relative;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border-top: 3px solid black;
+    
+}
+
+.head{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.head h1{ 
+    color: white;
+}
+
+.cont h2 span{
+    font-size: 2rem;
+    color: red;
+    font-weight: 500;
+}
+
+
+.container h1{
+    font-size: 3rem;
+    color: #04395e;
+}
+
+.form-box{
+    width: 40%;
+    max-width: 400px;
+   /* position: absolute;*/
+   /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+    background-color: whitesmoke;
+    padding:  50px 60px 70px ;
+   border: 2px solid black;
+    text-align: center;
+    border-radius: 30px;
+
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: black;
+    position: relative;
+}
+
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 10px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+   max-height: 65px;
+   transition: max-height 0.5s;
+   overflow: hidden;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+.input-field i{
+    margin-left: 40px;
+    color: #847f7f;
+} 
+
+form p{
+    text-align: left;
+    font-size: 13px;
+
+}
+
+form p a{
+    text-decoration: none;
+    color: #3c00a0;
+}
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-field button{
+    flex-basis: 48%;
+    background: #99d98c;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.input-group{
+    height: 280px;
+
+}
+.btn-field button.unseen{
+    background: #eaeaea;
+    color: #555;
+}
+
+/*foot*/
+
+.foot1{
+    height: 500px;
+    width: 100%;
+    background-color: #5e60ce;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.mess1 {
+    height: 400px;
+    width: 30%;
+    padding-top: 50px;
+
+}
+
+.mess1  h2{
+    color: #dee2e6;
+    font-size: 1.5rem;
+}
+
+.mess1 p{
+    font-size: 1rem;
+    color: white;
+}
+
+.mess2{
+    height: 400px;
+    width: 30%;
+    padding-top: 50px;
+}
+
+.mess2 h3{
+    color: #dee2e6;
+    font-size: 1rem;
+    color: white;
+}
+
+.mess2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.mess2 p{
+    font-size: 1rem;
+    color: white;
+}
+
+
+
